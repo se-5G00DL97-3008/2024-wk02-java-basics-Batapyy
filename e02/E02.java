@@ -8,7 +8,7 @@ public class E02 {
         double num1 = scanner.nextDouble();
 
  
-        System.out.println("Give another number: ");
+        System.out.println("Give a number: ");
         double num2 = scanner.nextDouble();
 
       

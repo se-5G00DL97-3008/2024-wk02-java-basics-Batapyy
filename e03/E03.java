@@ -5,7 +5,7 @@ public class E03 {
         Scanner scanner = new Scanner(System.in);
 
        
-        System.out.println("Enter a number:");
+        System.out.println("Enter a number: ");
         double number = scanner.nextDouble();
 
         if (number > 0) {

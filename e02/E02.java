@@ -4,11 +4,11 @@ public class E02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Give a number:");
+        System.out.println("Give a number: ");
         double num1 = scanner.nextDouble();
 
  
-        System.out.println("Give another number:");
+        System.out.println("Give another number: ");
         double num2 = scanner.nextDouble();
 
       

@@ -1,6 +1,6 @@
 public class E01 {
     public static void main(String[] args) {
-        // Declare and initialize variables
+    
         int x = 10;
         float y = 5.5f;
         boolean flag = true;
@@ -10,7 +10,7 @@ public class E01 {
         byte num = 100;
         double pi = 3.13457599923384753929348;
 
-        // Print the variables to the console
+
         System.out.println(x);
         System.out.println(y);
         System.out.println(flag);

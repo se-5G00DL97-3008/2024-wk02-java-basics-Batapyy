@@ -5,30 +5,30 @@ public class E05 {
         Scanner scanner = new Scanner(System.in);
 
   
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a number:");
         int dayNumber = scanner.nextInt();
 
         switch (dayNumber) {
             case 1:
-                System.out.println("Monday");
+                System.out.println("Mon");
                 break;
             case 2:
-                System.out.println("Tuesday");
+                System.out.println("Tue");
                 break;
             case 3:
-                System.out.println("Wednesday");
+                System.out.println("Wed");
                 break;
             case 4:
-                System.out.println("Thursday");
+                System.out.println("Thu");
                 break;
             case 5:
-                System.out.println("Friday");
+                System.out.println("Fri");
                 break;
             case 6:
-                System.out.println("Saturday");
+                System.out.println("Sat");
                 break;
             case 7:
-                System.out.println("Sunday");
+                System.out.println("Sun");
                 break;
             default:
                 System.out.println("Only 7 days in a week");

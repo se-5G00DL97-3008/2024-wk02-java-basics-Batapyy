@@ -8,8 +8,7 @@ public class E06 {
         System.out.println("Which multiplication table to show?");
         int multiplier = scanner.nextInt();
 
-        // Print the multiplication table until 10
-        System.out.println("Multiplication table for " + multiplier + ":");
+      
         for (int i = 0; i <= 10; i++) {
             System.out.println(i + " x " + multiplier + " = " + (i * multiplier));
         }

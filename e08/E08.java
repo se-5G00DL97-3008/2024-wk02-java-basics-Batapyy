@@ -1,15 +1,28 @@
-Use the code skeleton in the e08/E08.java file.
-Write a program that will tell a user if a positive number is odd or even, the program will keep asking a new number until the user enter 0.
+import java.util.Scanner;
 
-💡Using modulo % to print if number is odd or even. Modulo returns the remainder when a division is done. 5 % 2 = 1, 4 % 2 = 0
+public class E08 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        while (true) {
+            // Ask the user to enter a number
+            System.out.println("Enter a number (0 to quit): ");
+            int number = scanner.nextInt();
 
-    // Expected flow
-    Enter a number (0 to quit):
-    9
-    Odd number
-    Enter a number (0 to quit):
-    12
-    Even number
-    Enter a number (0 to quit):
-    0
+            // Check if the number is 0 to quit the loop
+            if (number == 0) {
+                break;
+            }
+
+            // Check if the number is odd or even using modulo %
+            if (number % 2 == 0) {
+                System.out.println("Even number");
+            } else {
+                System.out.println("Odd number");
+            }
+        }
+
+        // Close the scanner
+        scanner.close();
+    }
+}

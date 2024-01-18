@@ -9,7 +9,7 @@ public class E09 {
 
         // Ask the teacher to give test scores until -1 is entered
         while (true) {
-            System.out.println("Give a test score (-1 to quit):");
+            System.out.println("Give a test score (-1 to quit): ");
             int score = scanner.nextInt();
 
             // Check if -1 is entered to quit the loop

@@ -6,10 +6,10 @@ public class E08 {
 
         while (true) {
             // Ask the user to enter a number
-            System.out.println("Give a number (0 to quit): ");
+            System.out.println("Give a number (0 to quit):");
             int number = scanner.nextInt();
 
-            // Check if the number is 0 to quit the loop
+    
             if (number == 0) {
                 break;
             }
@@ -22,7 +22,7 @@ public class E08 {
             }
         }
 
-        // Close the scanner
+ 
         scanner.close();
     }
 }

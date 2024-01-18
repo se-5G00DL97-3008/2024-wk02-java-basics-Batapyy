@@ -1,5 +1,24 @@
-class E07 {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
+public class E07 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user for the multiplicand
+        System.out.println("Which multiplicand multiplication table to show?");
+        int multiplicand = scanner.nextInt();
+
+        // Ask the user until which multiplier
+        System.out.println("Until which multiplier?");
+        int maxMultiplier = scanner.nextInt();
+
+        // Print the multiplication table until the desired multiplier
+        System.out.println("Multiplication table for " + multiplicand + ":");
+        for (int i = 1; i <= maxMultiplier; i++) {
+            System.out.println(i + " x " + multiplicand + " = " + (i * multiplicand));
+        }
+
+        // Close the scanner
+        scanner.close();
     }
 }

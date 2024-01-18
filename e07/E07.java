@@ -12,8 +12,7 @@ public class E07 {
         System.out.println("Until which multiplier should the table show?");
         int maxMultiplier = scanner.nextInt();
 
-        // Print the multiplication table until the desired multiplier
-        System.out.println("Multiplication table for " + multiplicand + ":");
+     
         for (int i = 0; i <= maxMultiplier; i++) {
             System.out.println(i + " x " + multiplicand + " = " + (i * multiplicand));
         }
